@@ -1,0 +1,114 @@
+.responsiveimg {
+  margin-top: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+.responsiveimg2 {
+  margin-top: 20px;
+  height: 180px !important;
+  width: 180px !important;
+}
+
+.logincontainer form {
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  bottom: 25px;
+}
+
+.icon-input {
+  color: #3F51B5;
+}
+
+.input-field .active {
+  color: #FFC300 !important;
+}
+
+.input-field input[type=text]:focus+label {
+  color: #FFC300 !important;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #FFC300 !important;
+  box-shadow: 0 1px 0 0 #FFC300 !important;
+}
+
+.input-field input[type=password]:focus+label {
+  color: #FFC300 !important;
+}
+
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid #FFC300 !important;
+  box-shadow: 0 1px 0 0 #FFC300 !important;
+}
+
+.chatty_bg_2 {
+  background-color: #FF5300 !important
+}
+
+.logincontainer h2 {
+  color: #3F51B5;
+  font-size: 52px;
+  font-family: 'Raleway', serif;
+  text-transform: uppercase;
+}
+
+.homecontainer .top .col {
+  overflow: hidden;
+}
+
+.homecontainer .card-image{
+    height: 300px; /* Your height here */
+    overflow-x: ;
+    background: cover;
+}
+
+.homecontainer .card .card-title {
+  text-transform: uppercase;
+  font-family: 'Rubik',serif;
+  font-weight: bold;
+}
+
+.homecontainer {
+  margin-top: -10px;
+}
+
+.homecontainer .top .fab {
+  position: absolute;
+  border-radius: 50%;
+  background-color: white;
+  color: #263238 !important;
+  margin-top: 20px;
+  margin-left: -30px;
+  border: 3px solid #37474f ;
+  transition: all 0.3s ease-in;
+}
+
+.homecontainer .top .fab:hover {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #eceff1;
+  color: #37474f !important;
+  margin-top: 20px;
+  margin-left: -30px;
+  border: 3px solid #37474f ;
+}
+
+.homecontainer .top ul li {
+  background-color: #37474f  !important;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .responsiveimg2 {
+    display: None;
+  }
+  .chattybrand {
+    font-size: 16px !important;
+  }
+  .logincontainer form {
+    margin-bottom: -30px !important;
+  }
+}
